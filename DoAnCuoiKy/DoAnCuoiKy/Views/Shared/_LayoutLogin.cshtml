@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset:utf-8" />
+    <meta name="description" content="tom thien nhien" />
+    <meta http-equiv="content-language" content="vi" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/mystyle.css" rel="stylesheet" />
+    <script src="~/Scripts/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .chuheadtop {
+            color: blue;
+            padding-top: 20px;
+            text-align: center;
+            margin-top: 0px;
+            font-size: x-large;
+        }
+
+        .logotrai {
+            margin-left: 180px;
+        }
+
+        p.ridge {
+            border-style: ridge;
+            margin-left: 10px;
+            width: 250px;
+            height: 53px;
+            text-align: center;
+            border: 2px solid #fff;
+            border-color: yellow;
+            background-color: yellow;
+            float: right;
+            margin-bottom: 0PX;
+            padding-top: 14px;
+            margin-top: 0px;
+            font-size: 15px;
+        }
+
+        #div-containt2 {
+            width: 70%;
+            background-color: white;
+            float: left;
+        }
+
+        #address {
+            width: 25px;
+            margin-right: 10px;
+            vertical-align: middle;
+            border: 0;
+            margin-top: 5px;
+            font-size: 50px;
+            margin-bottom: 5px;
+        }
+
+        #list-store {
+            float: left;
+            width: 400px;
+            height: 100px;
+            font-family: 'Helvetica';
+            font-weight: lighter;
+        }
+
+        #view-address {
+            margin-left: 100px;
+            margin-top: 10px;
+            background-color: midnightblue;
+            border-radius: 5px;
+            width: 250px;
+            height: 30px;
+            padding-left: 5px;
+        }
+
+        #address-span {
+            font-size: 17px;
+            height: 44px;
+        }
+
+        ul, li {
+            list-style-type: none;
+        }
+
+        #format-address {
+            height: 350px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            max-width: 500px;
+            margin-left: 50px;
+        }
+
+        ul.a {
+            list-style-type: circle;
+        }
+
+        ul li::before {
+            content: "\2022";
+            color: black;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div id="div-headtop">
+        <div class="logotrai">
+            <a href="https://haisanhoanggia.com/" class="">
+                <img src="~/Content/images/chead_item_image_1.png" style="height:50px; width:120px;float:left;margin-top:5px;margin-left:20px">
+            </a>
+            <a href="https://royalsushi.vn/" class="">
+                <img src="~/Content/images/chead_item_image_2.png" style="height:60px; width:70px;float:left;margin-left:20px;" />
+            </a>
+        </div>
+        <p class="chuheadtop">FREE SHIP T4-T5 HÀNG TUẦN</p>
+    </div>
+    <div id="div-top">
+
+        <div class="edittop">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <a href="https://haisanhoanggia.com/">
+                    </a>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div style="color:yellow;margin-top:50px;font-size:25px;margin-left:120px">
+                        <b>ĂN CHẤT LƯỢNG - SỐNG THỊNH VƯỢNG</b>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                    <div class="header-user hidden-sm hidden-xs">
+                        @if (Session["IDCus"] != null)
+                        {
+                            <a href="@Url.Action("Logout","Login")"> <p style="color:white;margin-top:20px;">Đăng xuất</p></a>
+                        }
+                        else
+                        {
+                            <a href="@Url.Action("Index", "Login")"><p style="color:white;margin-top:20px;">Tài khoản</p></a>
+                        }
+                        <span>
+                            <a href="/ShoppingCart/ShowCart">
+                                <img src="@Url.Content("~/Content/images/cart2.png")" style="height:35px;width:40px;margin-top:15px;margin-left:10px" />
+                            </a>
+                        </span>
+                        @Html.Action("BagCart", "ShoppingCart")
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="div-left">
+        <div id="div-slidehead">
+            <p class="ridge" style="text-align:center"><b>DANH MỤC</b></p>
+        </div>
+    </div>
+    <div id="div-containt2">
+        <div id="div-slidehead2">
+            <div id="div-sh1">
+                <img src="~/Content/images/icon_1_pc.png" style="height: 45px; width: 40px; margin-right: 2px; padding-top: 5px; padding-bottom: 2px; margin-left: 10px;" />
+                <span class="large-text" style="color: white;padding-top:2px;font-size:15px;"><b>Cam kết chất lượng</b></span>
+            </div>
+            <div id="div-sh2">
+                <img src="~/Content/images/icon_2_pc.png" style="height: 45px; width: 40px; margin-right: 2px; padding-top: 5px; padding-bottom: 5px; margin-left: 10px;" />
+                <span class="large-text" style="color: white;padding-top:2px"><b>1 đổi 1 chỉ trong 2h</b></span>
+            </div>
+            <div id="div-sh3">
+                <img src="~/Content/images/icon_3_pc.png" style="height: 45px; width: 40px; margin-right: 2px; padding-top: 5px; padding-bottom: 5px; margin-left: 10px;" />
+                <span class="large-text" style="color: white;padding-top:2px"><b>Chuẩn đóng gói, sạch sẽ</b></span>
+            </div>
+            <div id="div-sh4">
+                <img src="~/Content/images/icon_4_pc.png" style="height: 45px; width: 40px; margin-right: 2px; padding-top: 5px; padding-bottom: 5px; margin-left: 10px;" />
+                <span class="large-text" style="color: white;padding-top:2px"><b>Giao hàng cực nhanh</b></span>
+            </div>
+        </div>
+    </div>
+    <div id="div-main-body">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <h1 style="text-align:center;margin-top:35%">Đăng Nhập</h1> <hr width="10%" align="center" color="black"/>
+            </div>
+            <div class="col-md-6 col-xs-12">@RenderBody()</div>
+        </div>
+    </div>
+    <div id="div-footer-head"><img src="~/Content/images/headfooter.png" style="width: 100%; height: 280px;" /></div>
+    <div id="div-footer">
+        <div class="row">
+            <div class="col-sm-4">
+                <div id="list-store">
+                    <h4 style="text-align:right"><b>CÔNG TY TNHH THƯƠNG MẠI QUỐC TẾ HẢI SẢN HOÀNG GIA</b></h4>
+                    <div id="format-address">
+                        <ul>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận 1:</b> 180 Trần Hưng Đạo P. Nguyễn Cư Trinh</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận 1:</b> 37 Lý Tự Trọng, P. Bến Nghé</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận 2:</b> 16 Quốc Hương, P.Thảo Điền</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận 7:</b> 103A Nguyễn Thị Thập, P. Tân Phú</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận 7:</b> 954 Nguyễn Văn Linh, P. Tân Phong</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận 7:</b> Lotte Mart 469 Nguyễn Hữu Thọ, P. Tân Phong</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận 10:</b> 235-241 Nguyễn Tri Phương, P. 5</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận 11:</b> 94 Hòa Bình, P. 5</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận Gò Vấp:</b> 1031 Phan Văn Trị, P.10</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận Gò Vấp:</b> Lotte Mart 242 Nguyễn Văn Lượng, P.10</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>TP.HCM - Quận Tân Phú:</b> 367 Tân Sơn Nhì, P.Tân Thành</span>
+                            </li>
+                            <li>
+                                <img src="~/Content/images/address.png" id="address">
+                                <span id="address-span"><b>HÀ NỘI - Quận Tây Hồ:</b> 38 An Dương Vương, Phú Thượng, Tây Hồ</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="view-address">
+                        <a href="#">Xem thêm các địa chỉ khác</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div style="text-align:left">
+                    <h4>DANH MỤC</h4>
+                    <ul class="a">
+                        <li style="list-style-type: circle;">Trang Chủ</li>
+                        <li style="list-style-type: circle">Sản phẩm</li>
+                        <li style="list-style-type: circle">Khuyến Mãi</li>
+                        <li style="list-style-type: circle">Tuyển dụng</li>
+                        <li style="list-style-type: circle">Góc Ẩm Thực</li>
+                        <li style="list-style-type: circle">Liên hệ</li>
+                        <li style="list-style-type: circle">Giới thiệu</li>
+                        <li style="list-style-type: circle">Sự kiện Hoàng Gia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div style="text-align:left">
+                    <h4 style="margin-top:0px">CHĂM SÓC KHÁCH HÀNG</h4>
+                    <ul class="a">
+                        <li style="list-style-type: circle;">Chính sách đổi trả</li>
+                        <li style="list-style-type: circle">Chính sách giao hàng</li>
+                        <li style="list-style-type: circle">Chính sách về bảo mật thông tin</li>
+                        <li style="list-style-type: circle">Chính sách khách hàng thân thiết</li>
+                        <li style="list-style-type: circle">Phương thức thanh toán</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
+                <p>
+                    <a href="https://www.facebook.com/haisanhoanggia/">
+                        <img src="~/Content/images/linkfb.png" style="width:300px;height:400px;float:left">
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

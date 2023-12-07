@@ -1,0 +1,76 @@
+﻿@*@model IEnumerable<DoAnCuoiKy.Models.Product>*@
+@using DoAnCuoiKy.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<Product>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Trangchu.cshtml";
+}
+<style>
+    .MenuPage li{
+        display: inline;
+        border : 1px solid black;
+        padding: 0.5rem;
+    }
+    #div-ds{
+        text-align:center;
+        background-color:aqua;
+        height:50px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    #khungtt {
+        width: 200px;
+        background-color: midnightblue;
+        height: 40px;
+        border: 1px solid blue;
+        padding:0.5rem;
+        border-radius : 5px
+    }
+    #khungtt:hover {
+        background-color: white;
+        color: midnightblue;
+    }
+    #khungtt:hover p{
+        color:midnightblue;
+    }
+    #khungtt p{
+        color:white;
+    }
+        .card-pro a img{
+            display:block;
+            transition: all 0.3s ease-in-out;
+        }
+        .card-pro a{
+            position: relative;
+        }
+        .card-pro:hover img{
+            transform: scale(1.1);
+            opacity :0.8;
+        }
+</style>
+
+<div id="div-ds"><h2 style="padding-top:10px;color:white;">DANH SÁCH SẢN PHẨM</h2></div>
+<div class="container">
+    <div class="row">
+        @foreach (var pro in Model)
+        {
+            <div class="col-sm-12 col-sm-6 col-md-4 col-lg-3" style="margin-top:15px;">
+                <div id="khungsp" style="border:1px solid gainsboro;width:220px;height:370px;padding:0.5rem">
+                <div class="card-pro">
+                    <img src="@Url.Content(pro.ImagePro)" height="220" width="200" />
+                    <p style="margin-top:8px">@Html.DisplayFor(model => pro.NamePro)</p>
+                    <p style="color:blue">@Html.DisplayFor(model => pro.Price)</p>
+                    <div id="khungtt" style="margin-bottom:5px"> <a href="/ShoppingCart/AddToCart/@pro.ProductID"> <p style="text-align:center"><b>CHỌN MUA</b></p></a></div>
+                </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+Trang @(Model.PageCount<Model.PageNumber ?0 : Model.PageNumber)/@Model.PageCount
+<div class="MenuPage">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+</div>

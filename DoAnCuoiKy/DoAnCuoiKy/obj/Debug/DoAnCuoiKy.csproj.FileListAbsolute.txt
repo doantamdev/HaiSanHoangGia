@@ -1,0 +1,261 @@
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\DoAnCuoiKy.dll.config
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\DoAnCuoiKy.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\DoAnCuoiKy.pdb
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csc.exe
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csc.exe.config
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csc.rsp
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csi.exe
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csi.exe.config
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csi.rsp
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.AppContext.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Collections.Immutable.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Console.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Globalization.Calendars.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.Compression.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.FileSystem.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Net.Http.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Net.Sockets.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Reflection.Metadata.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.ValueTuple.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.XPath.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\vbc.exe
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\vbc.exe.config
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\vbc.rsp
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\VBCSCompiler.exe
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\VBCSCompiler.exe.config
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Antlr3.Runtime.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.SqlServer.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Microsoft.Web.Infrastructure.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Newtonsoft.Json.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Helpers.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Mvc.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Optimization.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Razor.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Deployment.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Razor.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\WebGrease.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.SqlServer.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Helpers.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Mvc.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Optimization.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Razor.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Deployment.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Razor.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Newtonsoft.Json.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Antlr3.Runtime.pdb
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.AssemblyReference.cache
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CoreCompileInputs.cache
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CopyComplete
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.pdb
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.Mvc.dll
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.xml
+D:\Huflit\Học kì 3\Web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.Mvc.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\DoAnCuoiKy.dll.config
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\DoAnCuoiKy.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\DoAnCuoiKy.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csc.exe
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csc.exe.config
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csc.rsp
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csi.exe
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csi.exe.config
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csi.rsp
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.AppContext.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Console.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.Compression.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Net.Http.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.ValueTuple.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\vbc.exe
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\vbc.exe.config
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\vbc.rsp
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\VBCSCompiler.exe
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Antlr3.Runtime.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Newtonsoft.Json.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.Mvc.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Helpers.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Mvc.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Optimization.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Razor.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Razor.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\WebGrease.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.Mvc.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Helpers.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Mvc.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Optimization.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Razor.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Razor.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Newtonsoft.Json.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Antlr3.Runtime.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CopyComplete
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BT CODE 2022\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.pdb
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\DoAnCuoiKy.dll.config
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\DoAnCuoiKy.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\DoAnCuoiKy.pdb
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csc.exe
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csc.exe.config
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csc.rsp
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csi.exe
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csi.exe.config
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\csi.rsp
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.AppContext.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Collections.Immutable.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Console.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Globalization.Calendars.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.Compression.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.FileSystem.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Net.Http.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Net.Sockets.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Reflection.Metadata.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.ValueTuple.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.XPath.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\vbc.exe
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\vbc.exe.config
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\vbc.rsp
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\VBCSCompiler.exe
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\roslyn\VBCSCompiler.exe.config
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Antlr3.Runtime.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.SqlServer.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Microsoft.Web.Infrastructure.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Newtonsoft.Json.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.Mvc.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Helpers.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Mvc.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Optimization.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Razor.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Deployment.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Razor.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\WebGrease.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\EntityFramework.SqlServer.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\PagedList.Mvc.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Helpers.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Mvc.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Optimization.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.Razor.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Deployment.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\System.Web.WebPages.Razor.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Newtonsoft.Json.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Antlr3.Runtime.pdb
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.AssemblyReference.cache
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CoreCompileInputs.cache
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.csproj.CopyComplete
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.dll
+D:\Huflit\Năm 2\Học kì 3\Lập trình web\DoAnCuoiKy\DoAnCuoiKy\DoAnCuoiKy\obj\Debug\DoAnCuoiKy.pdb

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b1c5a5ef-8b4d-4d71-87cf-b8cb38363278": {
+      "ProjectGuid": "b1c5a5ef-8b4d-4d71-87cf-b8cb38363278",
+      "DisplayName": "DoAnCuoiKy",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

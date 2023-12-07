@@ -1,0 +1,5 @@
+﻿@model DoAnCuoiKy.Models.Category
+@Html.DropDownListFor(model => model.IDCate,
+new SelectList(Model.ListCate.OrderBy(model => model.NameCate), "IDCate", "NameCate"), "--Select Cate--")
+
+

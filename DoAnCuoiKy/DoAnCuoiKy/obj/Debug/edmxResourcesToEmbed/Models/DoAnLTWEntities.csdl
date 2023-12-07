@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DoAnLTWModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AdminUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="NameUser" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RoleUser" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PasswordUser" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="IDCate" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDCate" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="NameCate" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Pro_Category" FromRole="Category" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="IDCus" />
+    </Key>
+    <Property Name="IDCus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameCus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneCus" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="EmailCus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserCus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PassCus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="OrderProes" Relationship="Self.FK__OrderPro__IDCus__2D27B809" FromRole="Customer" ToRole="OrderPro" />
+  </EntityType>
+  <EntityType Name="OrderDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDProduct" Type="Int32" />
+    <Property Name="IDOrder" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="UnitPrice" Type="Double" />
+    <Property Name="CommentPro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="OrderPro" Relationship="Self.FK__OrderDeta__IDOrd__30F848ED" FromRole="OrderDetail" ToRole="OrderPro" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__OrderDeta__IDPro__300424B4" FromRole="OrderDetail" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="OrderPro">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateOrder" Type="DateTime" Precision="0" />
+    <Property Name="IDCus" Type="Int32" />
+    <Property Name="AddressDeliverry" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NameCusNonAccount" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneCusNonAccount" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OrderDate" Type="DateTime" Precision="3" />
+    <Property Name="DatePay" Type="DateTime" Precision="3" />
+    <Property Name="DateRecieve" Type="DateTime" Precision="3" />
+    <Property Name="WhyNot" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__OrderPro__IDCus__2D27B809" FromRole="OrderPro" ToRole="Customer" />
+    <NavigationProperty Name="OrderDetails" Relationship="Self.FK__OrderDeta__IDOrd__30F848ED" FromRole="OrderPro" ToRole="OrderDetail" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NamePro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DecriptionPro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Category" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ImagePro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Quantity" Type="Int32" />
+    <NavigationProperty Name="Category1" Relationship="Self.FK_Pro_Category" FromRole="Products" ToRole="Category" />
+    <NavigationProperty Name="OrderDetails" Relationship="Self.FK__OrderDeta__IDPro__300424B4" FromRole="Products" ToRole="OrderDetail" />
+  </EntityType>
+  <Association Name="FK_Pro_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Products" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="IDCate" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="Category" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderPro__IDCus__2D27B809">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="OrderPro" Type="Self.OrderPro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="IDCus" />
+      </Principal>
+      <Dependent Role="OrderPro">
+        <PropertyRef Name="IDCus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderDeta__IDOrd__30F848ED">
+    <End Role="OrderPro" Type="Self.OrderPro" Multiplicity="0..1" />
+    <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderPro">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OrderDetail">
+        <PropertyRef Name="IDOrder" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderDeta__IDPro__300424B4">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="OrderDetail">
+        <PropertyRef Name="IDProduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DoAnLTWEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AdminUsers" EntityType="Self.AdminUser" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="OrderDetails" EntityType="Self.OrderDetail" />
+    <EntitySet Name="OrderProes" EntityType="Self.OrderPro" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <AssociationSet Name="FK_Pro_Category" Association="Self.FK_Pro_Category">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderPro__IDCus__2D27B809" Association="Self.FK__OrderPro__IDCus__2D27B809">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="OrderPro" EntitySet="OrderProes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderDeta__IDOrd__30F848ED" Association="Self.FK__OrderDeta__IDOrd__30F848ED">
+      <End Role="OrderPro" EntitySet="OrderProes" />
+      <End Role="OrderDetail" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderDeta__IDPro__300424B4" Association="Self.FK__OrderDeta__IDPro__300424B4">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="OrderDetail" EntitySet="OrderDetails" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

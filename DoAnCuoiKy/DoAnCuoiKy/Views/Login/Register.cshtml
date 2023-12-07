@@ -1,0 +1,95 @@
+﻿@model DoAnCuoiKy.Models.Customer
+    <style>
+        .field-validation-error{
+            color:red;
+        }
+        #form-register{
+            position:absolute;
+            margin-top:100px;
+            left:30px;
+            border: 1px solid #ccc;
+            padding :10px 10px;
+        }
+        table{
+            width:500px;
+        }
+        .title-form{
+            text-align:center;
+            font-size:30px;
+        }
+    </style>
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_LayoutDangky.cshtml";
+}
+
+<div id="form-register">
+    @using (Html.BeginForm("Register", "Login", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <table>
+            <tr class="title-form">
+                <th colspan="2">Đăng ký tài khoản</th>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.NameCus)</td>
+                <td>@Html.TextBoxFor(m => m.NameCus, new { style = "width:100%" })</td>
+            </tr>
+            <tr>
+                <td colspan="2">@Html.ValidationMessageFor(m => m.NameCus)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.UserCus)</td>
+                <td>@Html.TextBoxFor(m => m.UserCus, new { style = "width:100%" })</td>
+            </tr>
+            <tr>
+                <td colspan="2">@Html.ValidationMessageFor(m => m.UserCus)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.EmailCus)</td>
+                <td>@Html.TextBoxFor(m => m.EmailCus, new {style="width:100%" })</td>
+            </tr>
+            <tr>
+                <td colspan="2">@Html.ValidationMessageFor(m => m.EmailCus)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.PhoneCus)</td>
+                <td>@Html.TextBoxFor(m => m.PhoneCus, new { style = "width:100%" })</td>
+            </tr>
+            <tr>
+                <td colspan="2">@Html.ValidationMessageFor(m => m.PhoneCus)</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    @if (ViewBag.error != null)
+                {
+                    <span class="field-validation-error">@ViewBag.error</span>
+                }
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.PassCus)</td>
+                <td>@Html.PasswordFor(m => m.PassCus, new { style = "width:100%" })</td>
+            </tr>
+            <tr>
+                <td colspan="2">@Html.ValidationMessageFor(m => m.PassCus)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.ConfirmPassword)</td>
+                <td>@Html.PasswordFor(m => m.ConfirmPassword, new { style = "width:100%" })</td>
+            </tr>
+            <tr>
+                <td colspan="2">@Html.ValidationMessageFor(m => m.ConfirmPassword)</td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <input class="btn btn-primary" type="submit" value="Register" />
+                    <a class="btn btn-primary" href="@Url.Action("Index","Login")">Đăng nhập</a>
+                </td>
+            </tr>
+        </table>
+    }
+</div>
+

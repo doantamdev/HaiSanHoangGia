@@ -1,0 +1,31 @@
+﻿@using DoAnCuoiKy.Models
+
+@model  List<Category>
+<style>
+    p.groove {
+        border-style: groove;
+        margin-left: 10px;
+        width: 250px;
+        height: 45px;
+        border: 2px solid #fff;
+        border-color: darkgray;
+        background-color: white;
+        float: right;
+        margin-bottom: 0PX;
+        padding-top: 13px;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+</style>
+<ul style="list-style-type:none" id="div-u">
+    @{
+        foreach (var item in Model)
+        {
+        <li class="div-cate">
+            <p class="groove">              
+                @Html.ActionLink(item.NameCate, "Index", "Product", new { category = item.IDCate.Trim() }, "")
+            </p>
+        </li>          
+        }
+    }
+</ul>

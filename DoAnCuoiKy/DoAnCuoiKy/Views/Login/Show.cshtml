@@ -1,0 +1,69 @@
+﻿@model IEnumerable<DoAnCuoiKy.Models.Customer>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDCus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NameCus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneCus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailCus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserCus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PassCus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConfirmPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LoginErrorMessage)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDCus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameCus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneCus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailCus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserCus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PassCus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConfirmPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LoginErrorMessage)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

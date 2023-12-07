@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DoAnLTWModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AdminUser">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="NameUser" Type="nvarchar(max)" />
+          <Property Name="RoleUser" Type="nvarchar(max)" />
+          <Property Name="PasswordUser" Type="nchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="IDCate" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDCate" Type="nchar" MaxLength="20" Nullable="false" />
+          <Property Name="NameCate" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="IDCus" />
+          </Key>
+          <Property Name="IDCus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameCus" Type="nvarchar(max)" />
+          <Property Name="PhoneCus" Type="nvarchar" MaxLength="15" />
+          <Property Name="EmailCus" Type="nvarchar(max)" />
+          <Property Name="UserCus" Type="nvarchar(max)" />
+          <Property Name="PassCus" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="OrderDetail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDProduct" Type="int" />
+          <Property Name="IDOrder" Type="int" />
+          <Property Name="Quantity" Type="int" />
+          <Property Name="UnitPrice" Type="float" />
+          <Property Name="CommentPro" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="OrderPro">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DateOrder" Type="date" />
+          <Property Name="IDCus" Type="int" />
+          <Property Name="AddressDeliverry" Type="nvarchar(max)" />
+          <Property Name="NameCusNonAccount" Type="nvarchar(max)" />
+          <Property Name="PhoneCusNonAccount" Type="nvarchar(max)" />
+          <Property Name="OrderDate" Type="datetime" />
+          <Property Name="DatePay" Type="datetime" />
+          <Property Name="DateRecieve" Type="datetime" />
+          <Property Name="WhyNot" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Products">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NamePro" Type="nvarchar(max)" />
+          <Property Name="DecriptionPro" Type="nvarchar(max)" />
+          <Property Name="Category" Type="nchar" MaxLength="20" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="ImagePro" Type="nvarchar(max)" />
+          <Property Name="Quantity" Type="int" />
+        </EntityType>
+        <Association Name="FK__OrderDeta__IDOrd__30F848ED">
+          <End Role="OrderPro" Type="Self.OrderPro" Multiplicity="0..1" />
+          <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrderPro">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="OrderDetail">
+              <PropertyRef Name="IDOrder" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrderDeta__IDPro__300424B4">
+          <End Role="Products" Type="Self.Products" Multiplicity="0..1" />
+          <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="OrderDetail">
+              <PropertyRef Name="IDProduct" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrderPro__IDCus__2D27B809">
+          <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+          <End Role="OrderPro" Type="Self.OrderPro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customer">
+              <PropertyRef Name="IDCus" />
+            </Principal>
+            <Dependent Role="OrderPro">
+              <PropertyRef Name="IDCus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Pro_Category">
+          <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+          <End Role="Products" Type="Self.Products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Category">
+              <PropertyRef Name="IDCate" />
+            </Principal>
+            <Dependent Role="Products">
+              <PropertyRef Name="Category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DoAnLTWModelStoreContainer">
+          <EntitySet Name="AdminUser" EntityType="Self.AdminUser" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrderDetail" EntityType="Self.OrderDetail" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrderPro" EntityType="Self.OrderPro" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__OrderDeta__IDOrd__30F848ED" Association="Self.FK__OrderDeta__IDOrd__30F848ED">
+            <End Role="OrderPro" EntitySet="OrderPro" />
+            <End Role="OrderDetail" EntitySet="OrderDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrderDeta__IDPro__300424B4" Association="Self.FK__OrderDeta__IDPro__300424B4">
+            <End Role="Products" EntitySet="Products" />
+            <End Role="OrderDetail" EntitySet="OrderDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrderPro__IDCus__2D27B809" Association="Self.FK__OrderPro__IDCus__2D27B809">
+            <End Role="Customer" EntitySet="Customer" />
+            <End Role="OrderPro" EntitySet="OrderPro" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Pro_Category" Association="Self.FK_Pro_Category">
+            <End Role="Category" EntitySet="Category" />
+            <End Role="Products" EntitySet="Products" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DoAnLTWModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AdminUser">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="NameUser" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="RoleUser" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PasswordUser" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="IDCate" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDCate" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="NameCate" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Products" Relationship="Self.FK_Pro_Category" FromRole="Category" ToRole="Products" />
+        </EntityType>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="IDCus" />
+          </Key>
+          <Property Name="IDCus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameCus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneCus" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="EmailCus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="UserCus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PassCus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="OrderProes" Relationship="Self.FK__OrderPro__IDCus__2D27B809" FromRole="Customer" ToRole="OrderPro" />
+        </EntityType>
+        <EntityType Name="OrderDetail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDProduct" Type="Int32" />
+          <Property Name="IDOrder" Type="Int32" />
+          <Property Name="Quantity" Type="Int32" />
+          <Property Name="UnitPrice" Type="Double" />
+          <Property Name="CommentPro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="OrderPro" Relationship="Self.FK__OrderDeta__IDOrd__30F848ED" FromRole="OrderDetail" ToRole="OrderPro" />
+          <NavigationProperty Name="Product" Relationship="Self.FK__OrderDeta__IDPro__300424B4" FromRole="OrderDetail" ToRole="Products" />
+        </EntityType>
+        <EntityType Name="OrderPro">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DateOrder" Type="DateTime" Precision="0" />
+          <Property Name="IDCus" Type="Int32" />
+          <Property Name="AddressDeliverry" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NameCusNonAccount" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneCusNonAccount" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="OrderDate" Type="DateTime" Precision="3" />
+          <Property Name="DatePay" Type="DateTime" Precision="3" />
+          <Property Name="DateRecieve" Type="DateTime" Precision="3" />
+          <Property Name="WhyNot" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Customer" Relationship="Self.FK__OrderPro__IDCus__2D27B809" FromRole="OrderPro" ToRole="Customer" />
+          <NavigationProperty Name="OrderDetails" Relationship="Self.FK__OrderDeta__IDOrd__30F848ED" FromRole="OrderPro" ToRole="OrderDetail" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NamePro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DecriptionPro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Category" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ImagePro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Quantity" Type="Int32" />
+          <NavigationProperty Name="Category1" Relationship="Self.FK_Pro_Category" FromRole="Products" ToRole="Category" />
+          <NavigationProperty Name="OrderDetails" Relationship="Self.FK__OrderDeta__IDPro__300424B4" FromRole="Products" ToRole="OrderDetail" />
+        </EntityType>
+        <Association Name="FK_Pro_Category">
+          <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+          <End Role="Products" Type="Self.Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Category">
+              <PropertyRef Name="IDCate" />
+            </Principal>
+            <Dependent Role="Products">
+              <PropertyRef Name="Category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrderPro__IDCus__2D27B809">
+          <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+          <End Role="OrderPro" Type="Self.OrderPro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customer">
+              <PropertyRef Name="IDCus" />
+            </Principal>
+            <Dependent Role="OrderPro">
+              <PropertyRef Name="IDCus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrderDeta__IDOrd__30F848ED">
+          <End Role="OrderPro" Type="Self.OrderPro" Multiplicity="0..1" />
+          <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrderPro">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="OrderDetail">
+              <PropertyRef Name="IDOrder" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrderDeta__IDPro__300424B4">
+          <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+          <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="OrderDetail">
+              <PropertyRef Name="IDProduct" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DoAnLTWEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AdminUsers" EntityType="Self.AdminUser" />
+          <EntitySet Name="Categories" EntityType="Self.Category" />
+          <EntitySet Name="Customers" EntityType="Self.Customer" />
+          <EntitySet Name="OrderDetails" EntityType="Self.OrderDetail" />
+          <EntitySet Name="OrderProes" EntityType="Self.OrderPro" />
+          <EntitySet Name="Products" EntityType="Self.Product" />
+          <AssociationSet Name="FK_Pro_Category" Association="Self.FK_Pro_Category">
+            <End Role="Category" EntitySet="Categories" />
+            <End Role="Products" EntitySet="Products" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrderPro__IDCus__2D27B809" Association="Self.FK__OrderPro__IDCus__2D27B809">
+            <End Role="Customer" EntitySet="Customers" />
+            <End Role="OrderPro" EntitySet="OrderProes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrderDeta__IDOrd__30F848ED" Association="Self.FK__OrderDeta__IDOrd__30F848ED">
+            <End Role="OrderPro" EntitySet="OrderProes" />
+            <End Role="OrderDetail" EntitySet="OrderDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrderDeta__IDPro__300424B4" Association="Self.FK__OrderDeta__IDPro__300424B4">
+            <End Role="Products" EntitySet="Products" />
+            <End Role="OrderDetail" EntitySet="OrderDetails" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DoAnLTWModelStoreContainer" CdmEntityContainer="DoAnLTWEntities1">
+          <EntitySetMapping Name="AdminUsers">
+            <EntityTypeMapping TypeName="DoAnLTWModel.AdminUser">
+              <MappingFragment StoreEntitySet="AdminUser">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NameUser" ColumnName="NameUser" />
+                <ScalarProperty Name="RoleUser" ColumnName="RoleUser" />
+                <ScalarProperty Name="PasswordUser" ColumnName="PasswordUser" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Categories">
+            <EntityTypeMapping TypeName="DoAnLTWModel.Category">
+              <MappingFragment StoreEntitySet="Category">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IDCate" ColumnName="IDCate" />
+                <ScalarProperty Name="NameCate" ColumnName="NameCate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Customers">
+            <EntityTypeMapping TypeName="DoAnLTWModel.Customer">
+              <MappingFragment StoreEntitySet="Customer">
+                <ScalarProperty Name="IDCus" ColumnName="IDCus" />
+                <ScalarProperty Name="NameCus" ColumnName="NameCus" />
+                <ScalarProperty Name="PhoneCus" ColumnName="PhoneCus" />
+                <ScalarProperty Name="EmailCus" ColumnName="EmailCus" />
+                <ScalarProperty Name="UserCus" ColumnName="UserCus" />
+                <ScalarProperty Name="PassCus" ColumnName="PassCus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrderDetails">
+            <EntityTypeMapping TypeName="DoAnLTWModel.OrderDetail">
+              <MappingFragment StoreEntitySet="OrderDetail">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IDProduct" ColumnName="IDProduct" />
+                <ScalarProperty Name="IDOrder" ColumnName="IDOrder" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+                <ScalarProperty Name="CommentPro" ColumnName="CommentPro" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrderProes">
+            <EntityTypeMapping TypeName="DoAnLTWModel.OrderPro">
+              <MappingFragment StoreEntitySet="OrderPro">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="DateOrder" ColumnName="DateOrder" />
+                <ScalarProperty Name="IDCus" ColumnName="IDCus" />
+                <ScalarProperty Name="AddressDeliverry" ColumnName="AddressDeliverry" />
+                <ScalarProperty Name="NameCusNonAccount" ColumnName="NameCusNonAccount" />
+                <ScalarProperty Name="PhoneCusNonAccount" ColumnName="PhoneCusNonAccount" />
+                <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+                <ScalarProperty Name="DatePay" ColumnName="DatePay" />
+                <ScalarProperty Name="DateRecieve" ColumnName="DateRecieve" />
+                <ScalarProperty Name="WhyNot" ColumnName="WhyNot" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Products">
+            <EntityTypeMapping TypeName="DoAnLTWModel.Product">
+              <MappingFragment StoreEntitySet="Products">
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="NamePro" ColumnName="NamePro" />
+                <ScalarProperty Name="DecriptionPro" ColumnName="DecriptionPro" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="ImagePro" ColumnName="ImagePro" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

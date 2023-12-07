@@ -1,0 +1,47 @@
+﻿@model DoAnCuoiKy.Models.AdminUser
+
+@{
+    ViewBag.Title = "RegisterUser";
+ 
+}
+<style>
+    .field-validation-error {
+        color: red;
+    }
+</style>
+
+<h2>RegisterUser</h2>
+@using (Html.BeginForm("RegisterUser", "LoginUser", FormMethod.Post, new
+{
+    enctype = "multipart/form-data"
+}))
+{
+    @Html.AntiForgeryToken()
+    <p>@Html.LabelFor(model => model.ID)</p>
+    <p>@Html.EditorFor(model => model.ID)</p>
+    <p>@Html.ValidationMessageFor(model => model.ID)</p>
+
+    if (ViewBag.ErrorRegister != null)
+    {
+        <p>@ViewBag.ErrorRegister</p>
+    }
+
+    <p>@Html.LabelFor(model => model.NameUser)</p>
+    <p>@Html.EditorFor(model => model.NameUser)</p>
+    <p>@Html.ValidationMessageFor(model => model.NameUser)</p>
+
+    <p>@Html.LabelFor(model => model.RoleUser)</p>
+    <p>@Html.EditorFor(model => model.RoleUser)</p>
+    <p>@Html.ValidationMessageFor(model => model.RoleUser)</p>
+
+
+    <p>@Html.LabelFor(model => model.PasswordUser)</p>
+    <p>@Html.EditorFor(model => model.PasswordUser)</p>
+    <p>@Html.ValidationMessageFor(model => model.PasswordUser)</p>
+
+
+
+    <input type="submit" value="Register" />
+}
+
+

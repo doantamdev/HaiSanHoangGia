@@ -1,0 +1,39 @@
+﻿@model DoAnCuoiKy.Models.AdminUser
+
+@{
+    ViewBag.Title = "FormLogin";
+}
+
+<style>
+    .field-validation-error {
+        color: red;
+    }
+</style>
+<h2>FormLogin</h2>
+@using (Html.BeginForm("LoginAcount", "LoginUser"))
+{
+    @Html.AntiForgeryToken()
+    <table>
+        <tr>
+            <td>@Html.LabelFor(model => model.NameUser)</td>
+            <td>@Html.TextBoxFor(model => model.NameUser, new { style = "field-validation-error" })</td>
+            <td>@Html.ValidationMessageFor(model => model.NameUser)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.PasswordUser)</td>
+            <td>@Html.EditorFor(model => model.PasswordUser)</td>
+            <td>@Html.ValidationMessageFor(model => model.PasswordUser)</td>
+            @if (ViewBag.ErrorInfo== null)
+            {
+                <p> ViewBag.ErrorInfo </p>
+            }
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Login" /></td>
+        </tr>
+    </table>
+
+}
+
+

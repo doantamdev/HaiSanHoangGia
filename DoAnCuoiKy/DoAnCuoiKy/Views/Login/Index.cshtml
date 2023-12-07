@@ -1,0 +1,72 @@
+﻿@model DoAnCuoiKy.Models.Customer
+<style>
+    .field-validation-error {
+        color: red;
+    }
+
+    #form-login {
+        position: absolute;
+        margin-top: 100px;
+        left: 30px;
+        border: 1px solid #ccc;
+        padding: 10px 10px;
+    }
+
+    table {
+        width: 500px;
+    }
+
+    .title-form {
+        text-align: center;
+        font-size: 30px;
+    }
+</style>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+
+<div id="form-login">
+    @using (Html.BeginForm("Authen", "Login", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+    <table>
+        <tr class="title-form">
+            <th colspan="2">Đăng nhập tài khoản</th>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(m => m.EmailCus)</td>
+            <td>@Html.TextBoxFor(m => m.EmailCus, new { style = "width:100%" })</td>
+        </tr>
+        <tr>
+            <td colspan="2">@Html.ValidationMessageFor(m => m.EmailCus)</td>
+        </tr>
+
+        <tr>
+            <td>@Html.LabelFor(m => m.PassCus)</td>
+            <td>@Html.PasswordFor(m => m.PassCus, new { style = "width:100%" })</td>
+        </tr>
+        <tr>
+            <td colspan="2">@Html.ValidationMessageFor(m => m.PassCus)</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label class="field-validation-error">
+                    @Html.DisplayFor(m => m.LoginErrorMessage)
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <input class="btn btn-primary" type="submit" value="Login" />
+                <a class="btn btn-primary" href="@Url.Action("Register","Login")">Register</a>
+            </td>
+        </tr>
+    </table>
+    }
+</div>
+
+

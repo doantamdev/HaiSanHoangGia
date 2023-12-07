@@ -1,0 +1,51 @@
+﻿@model DoAnCuoiKy.Models.Product
+
+@{
+    ViewBag.Title = "Create";
+}
+
+
+<h2>Them moi san pham</h2>
+@using (Html.BeginForm("Create", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<table class="table-bordered">
+    <tr>
+        <td>@Html.LabelFor(model => model.NamePro)</td>
+        <td>@Html.EditorFor(model => model.NamePro)</td>
+    </tr>
+    <tr>
+        <td>@Html.LabelFor(model => model.Price)</td>
+        <td>@Html.EditorFor(model => model.Price)</td>
+    </tr>
+    <tr>
+        <td>@Html.LabelFor(model => model.Category)</td>
+        <td>
+            @{
+                Html.RenderAction("SelectCate", "Product");
+            }
+        </td>
+    </tr>
+    <tr>
+        <td>@Html.LabelFor(model => model.DecriptionPro)</td>
+        <td>@Html.EditorFor(model => model.DecriptionPro)</td>
+    </tr>
+    <tr>
+        <td>@Html.LabelFor(model => model.Quantity)</td>
+        <td>@Html.EditorFor(model => model.Quantity)</td>
+    </tr>
+    <tr>
+        <td>@Html.LabelFor(model => model.ImagePro)</td>
+        <td>
+            <img src="@Url.Content(Model.ImagePro)" height="150" width="150" id="previewImg" />
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="file" name="UploadImage" onchange="ChangeImage(this,document.getElementById('previewImg'))" />
+            <input type="submit" value="Tao moi" />
+        </td>
+    </tr>
+</table>
+}
+
+

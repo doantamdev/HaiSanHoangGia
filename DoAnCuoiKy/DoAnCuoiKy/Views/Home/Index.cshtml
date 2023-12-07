@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div style="text-align:center;"> 
+        <h2>Congratulation!</h2>
+        <h3>Email: @Session["EmailCus"].ToString()</h3>
+        <p>Login thành công</p>
+        <a href="@Url.Action("Index","Product")">Đi đến trang chủ</a>
+        <a class="btn btn-primary" href="@Url.Action("Logout","Login")">Đăng xuất</a>
+    </div>
+</body>
+</html>
